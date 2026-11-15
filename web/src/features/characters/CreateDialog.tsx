@@ -141,7 +141,7 @@ export function CreateDialog({ slot }: { slot: number }) {
                   aria-checked={active}
                   onClick={() => setSex(option)}
                   className={cn(
-                    "flex h-[4.7vh] min-w-0 flex-1 items-center gap-[1vh] rounded-full border bg-white/3 p-[0.5vh] text-left text-[1.6vh] transition-[border-color,background-color,transform] duration-150 ease-out hover:bg-white/6 active:[transform:scale(0.98)]",
+                    "flex h-[4.7vh] min-w-0 flex-1 items-center gap-[1vh] rounded-full border bg-white/3 p-[0.5vh] text-left text-[1.6vh] transition-[border-color,background-color,transform,translate,scale,rotate] duration-150 ease-out hover:bg-white/6 active:scale-98",
                     active ? "border-tgi-green-60" : "border-white/10",
                   )}
                 >

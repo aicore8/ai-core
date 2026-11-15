@@ -35,7 +35,7 @@ export function PanelHeader({
         <span className="text-[1.4vh] text-text-3 transition-colors duration-150 group-hover:text-text">
           {t("ADMIN_CLOSE")}
         </span>
-        <span className="flex size-[4vh] items-center justify-center rounded-full bg-control text-text-2 transition-[background-color,color,transform] duration-150 ease-out group-hover:bg-control-hover group-hover:text-text group-active:[transform:scale(0.92)]">
+        <span className="flex size-[4vh] items-center justify-center rounded-full bg-control text-text-2 transition-[background-color,color,transform,translate,scale,rotate] duration-150 ease-out group-hover:bg-control-hover group-hover:text-text group-active:scale-92">
           <FontAwesomeIcon
             icon={faDoorOpen}
             className="text-[1.6vh]"

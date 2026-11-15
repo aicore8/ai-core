@@ -79,7 +79,7 @@ export function RoundAction({
       <span className="text-[1.4vh] text-text-2 transition-colors duration-150 group-enabled:group-hover:text-text">
         {label}
       </span>
-      <span className="flex size-[4.4vh] items-center justify-center rounded-full bg-[#00000099] text-[#FFFFFFB2] transition-[color,background-color,transform] duration-150 ease-out group-enabled:group-hover:bg-[#101010B3] group-enabled:group-hover:text-text group-enabled:group-active:[transform:scale(0.92)]">
+      <span className="flex size-[4.4vh] items-center justify-center rounded-full bg-[#00000099] text-[#FFFFFFB2] transition-[color,background-color,transform,translate,scale,rotate] duration-150 ease-out group-enabled:group-hover:bg-[#101010B3] group-enabled:group-hover:text-text group-enabled:group-active:scale-92">
         <FontAwesomeIcon icon={icon} className="text-[1.7vh]" />
       </span>
     </button>
@@ -144,7 +144,7 @@ export function PillButton({
       aria-busy={pending || undefined}
       aria-label={iconOnly ? label : undefined}
       className={cn(
-        "flex h-full items-center justify-center gap-[0.8vh] rounded-full text-[1.4vh] font-bold whitespace-nowrap uppercase transition-[background-color,color,opacity,transform] duration-150 ease-out enabled:active:[transform:scale(0.96)] disabled:cursor-not-allowed disabled:opacity-40",
+        "flex h-full items-center justify-center gap-[0.8vh] rounded-full text-[1.4vh] font-bold whitespace-nowrap uppercase transition-[background-color,color,opacity,transform,translate,scale,rotate] duration-150 ease-out enabled:active:scale-96 disabled:cursor-not-allowed disabled:opacity-40",
         iconOnly ? "w-[5vh] px-0" : "px-[3vh]",
         PILL[variant],
         className,

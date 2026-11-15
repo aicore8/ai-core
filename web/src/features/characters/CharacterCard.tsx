@@ -74,7 +74,7 @@ export function CharacterCard({
         onPointerEnter={() => setHover(true)}
         onPointerLeave={() => setHover(false)}
         className={cn(
-          "relative rounded-full border-[0.3vh] p-0 transition-[border-color,opacity,transform] duration-150 ease-out enabled:active:[transform:scale(0.96)] disabled:cursor-not-allowed disabled:opacity-50",
+          "relative rounded-full border-[0.3vh] p-0 transition-[border-color,opacity,transform,translate,scale,rotate] duration-150 ease-out enabled:active:scale-96 disabled:cursor-not-allowed disabled:opacity-50",
           selected
             ? "border-tgi-green"
             : "border-transparent hover:border-white/30",
@@ -119,7 +119,7 @@ export function CreateCard({
         aria-label={t("CHAR_CREATE_TITLE")}
         disabled={busy}
         onClick={onCreate}
-        className="flex size-[10.6vh] items-center justify-center rounded-full border-[0.3vh] border-transparent bg-black/20 text-tgi-green transition-[background-color,border-color,transform,opacity] duration-150 ease-out hover:border-tgi-green-40 hover:bg-black/40 enabled:active:[transform:scale(0.96)] disabled:cursor-not-allowed disabled:opacity-50"
+        className="flex size-[10.6vh] items-center justify-center rounded-full border-[0.3vh] border-transparent bg-black/20 text-tgi-green transition-[background-color,border-color,transform,opacity,translate,scale,rotate] duration-150 ease-out hover:border-tgi-green-40 hover:bg-black/40 enabled:active:scale-96 disabled:cursor-not-allowed disabled:opacity-50"
       >
         <FontAwesomeIcon icon={faPlus} className="text-[2.6vh]" />
       </button>

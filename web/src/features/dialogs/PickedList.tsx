@@ -54,7 +54,7 @@ function StepButton({
       type="button"
       disabled={disabled}
       onClick={onClick}
-      className="flex h-[3vh] w-[3.6vh] shrink-0 items-center justify-center rounded-full bg-white/8 text-[1.1vh] font-bold text-text-2 tabular-nums transition-[background-color,color,transform] duration-150 ease-out enabled:hover:bg-white/14 enabled:hover:text-text enabled:active:[transform:scale(0.92)] disabled:cursor-not-allowed disabled:opacity-40"
+      className="flex h-[3vh] w-[3.6vh] shrink-0 items-center justify-center rounded-full bg-white/8 text-[1.1vh] font-bold text-text-2 tabular-nums transition-[background-color,color,transform,translate,scale,rotate] duration-150 ease-out enabled:hover:bg-white/14 enabled:hover:text-text enabled:active:scale-92 disabled:cursor-not-allowed disabled:opacity-40"
     >
       {label}
     </button>

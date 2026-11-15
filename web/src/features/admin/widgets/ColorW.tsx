@@ -49,7 +49,7 @@ export function ColorW({ spec, path }: { spec: Spec<"color">; path: string }) {
             type="button"
             aria-label={t(spec.label)}
             onClick={() => setOpen((v) => !v)}
-            className="size-[3.8vh] shrink-0 rounded-full [box-shadow:inset_0_0_0_0.15vh_rgba(255,255,255,0.15)] transition-transform duration-150 hover:[transform:scale(1.06)]"
+            className="size-[3.8vh] shrink-0 rounded-full [box-shadow:inset_0_0_0_0.15vh_rgba(255,255,255,0.15)] transition-transform duration-150 hover:scale-106"
             style={{ background: HEX.test(stored) ? stored : "transparent" }}
           />
         }
@@ -65,7 +65,7 @@ export function ColorW({ spec, path }: { spec: Spec<"color">; path: string }) {
                 setOpen(false);
               }}
               className={cn(
-                "size-[2.8vh] rounded-full transition-transform duration-150 hover:[transform:scale(1.12)]",
+                "size-[2.8vh] rounded-full transition-transform duration-150 hover:scale-112",
                 hex === stored && "[box-shadow:0_0_0_0.2vh_var(--green)]",
               )}
               style={{ background: hex }}

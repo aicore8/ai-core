@@ -37,7 +37,7 @@ export function NumberW({
   const step = spec.step ?? 1;
   const unit = spec.unit ? (spec.unit === "$" ? "$" : t(spec.unit)) : "";
   const stepButton =
-    "flex size-[3vh] shrink-0 items-center justify-center rounded-full bg-control text-[1.1vh] text-text-2 transition-[background-color,color,transform] duration-150 ease-out enabled:hover:bg-control-hover enabled:hover:text-text enabled:active:[transform:scale(0.92)] disabled:cursor-not-allowed disabled:opacity-40";
+    "flex size-[3vh] shrink-0 items-center justify-center rounded-full bg-control text-[1.1vh] text-text-2 transition-[background-color,color,transform,translate,scale,rotate] duration-150 ease-out enabled:hover:bg-control-hover enabled:hover:text-text enabled:active:scale-92 disabled:cursor-not-allowed disabled:opacity-40";
   // Grams also read as a weight, left of the box (80000 g = 80 kg).
   const kilos = spec.unit === "g" ? formatWeight(stored) : null;
   return (

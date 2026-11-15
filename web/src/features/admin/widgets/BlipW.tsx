@@ -104,7 +104,7 @@ export function BlipW({ spec, path }: { spec: Spec; path: string }) {
                 setColors(false);
               }}
               className={cn(
-                "size-[2.4vh] rounded-full transition-transform duration-150 hover:[transform:scale(1.15)]",
+                "size-[2.4vh] rounded-full transition-transform duration-150 hover:scale-115",
                 c.id === blip.color && "[box-shadow:0_0_0_0.2vh_var(--green)]",
               )}
               style={{ background: c.hex }}
