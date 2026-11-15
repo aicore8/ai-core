@@ -18,12 +18,17 @@ type Records = Record<string, Record<string, unknown>>;
 function copyText(text: string): void {
   const area = document.createElement("textarea");
   area.value = text;
+  area.readOnly = true;
   area.style.position = "fixed";
   area.style.opacity = "0";
   document.body.appendChild(area);
+  // execCommand copies only from a focused selection, inside the click
+  const previous = document.activeElement;
+  area.focus({ preventScroll: true });
   area.select();
   document.execCommand("copy");
   area.remove();
+  if (previous instanceof HTMLElement) previous.focus({ preventScroll: true });
 }
 
 /** `{ key: record }` from pasted JSON; null when it is not that shape. */

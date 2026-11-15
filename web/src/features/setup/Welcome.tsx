@@ -28,10 +28,17 @@ type Welcome = SetupWelcome & { texts: Record<string, string> };
 function copy(text: string): void {
   const box = document.createElement("textarea");
   box.value = text;
+  box.readOnly = true;
+  box.style.position = "fixed";
+  box.style.opacity = "0";
   document.body.appendChild(box);
+  // execCommand copies only from a focused selection, inside the click
+  const previous = document.activeElement;
+  box.focus({ preventScroll: true });
   box.select();
   document.execCommand("copy");
   box.remove();
+  if (previous instanceof HTMLElement) previous.focus({ preventScroll: true });
 }
 
 function close(openPanel: boolean): void {
