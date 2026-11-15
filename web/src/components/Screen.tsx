@@ -170,17 +170,8 @@ export function PillButton({
   return iconOnly ? <Tooltip content={label}>{button}</Tooltip> : button;
 }
 
-/**
- * CEF 103 has no CSS linear(): Motion's WAAPI springs on opacity/filter fall back to a 300 ms ease-out and drift from
- * the JS spring on x/y, so those values get their own tween of the same length.
- */
-const springSoft = {
-  type: "spring",
-  duration: 0.35,
-  bounce: 0,
-  opacity: { type: "tween", duration: 0.3, ease: "easeOut" },
-  filter: { type: "tween", duration: 0.3, ease: "easeOut" },
-} as Transition;
+/** CEF 144 has CSS linear(): the spring reaches opacity / filter (WAAPI) with the same curve as x / y. */
+const springSoft: Transition = { type: "spring", duration: 0.35, bounce: 0 };
 
 /** Screen columns rising in on open (opacity, small lift, light blur). */
 export const screenEnter = {
