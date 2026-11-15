@@ -24,7 +24,7 @@ function Tile({
       onClick={(e) => onPick(e.shiftKey ? 100 : e.ctrlKey ? 10 : 1)}
       title={item.name}
       className={cn(
-        "flex aspect-square min-w-0 flex-col items-center justify-between rounded-[1vh] border p-[0.8vh] transition-[border-color,background-color] duration-150 outline-none hover:border-tgi-green-40 focus-visible:border-tgi-green-40 active:scale-97",
+        "flex aspect-square min-w-0 flex-col items-center justify-between rounded-[1vh] border p-[0.8vh] transition-[border-color,background-color,scale] duration-150 outline-none hover:border-tgi-green-40 focus-visible:border-tgi-green-40 active:scale-97",
         flash === "added"
           ? "border-tgi-green bg-tgi-green-10"
           : flash === "heavy"
