@@ -14,7 +14,7 @@
     "/server:38039"
   ],
   "scripts": {
-    "lint": "oxlint --ignore-pattern \"dist/**\" --ignore-pattern \"web/postcss-*.js\"",
+    "lint": "oxlint --ignore-pattern \"dist/**\"",
     "format": "prettier --write .",
     "dev": "bun tsdown -- --watch",
     "webdev": "bun --cwd web vite",
