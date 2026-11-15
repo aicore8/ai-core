@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.6.2](https://github.com/aifivem/ai-core/compare/v0.6.1...v0.6.2) (2026-11-15)
+
+
+### Bug Fixes
+
+* **web:** focus the hidden text box before copying, CEF 144 refuses an unfocused copy ([dac6fbb](https://github.com/aifivem/ai-core/commit/dac6fbb8a6ebaa201d8cd9e143912312eae71ce6))
+* **web:** presses ease again, transition lists name the scale property the split utilities animate ([1fc08e3](https://github.com/aifivem/ai-core/commit/1fc08e3b04bc179c28a82c6d8998d3d0828fe5a5))
+
+
+### Code Refactoring
+
+* **web:** individual translate / scale / rotate utilities instead of arbitrary transforms (CEF 144) ([4f56879](https://github.com/aifivem/ai-core/commit/4f56879ebbd4b61ebba129cbf11f793a75c8fe35))
+* **web:** screen springs drive opacity and filter directly, CEF 144 runs them through CSS linear() ([a2c159b](https://github.com/aifivem/ai-core/commit/a2c159b903e0ad8028ee168016be51ade638b796))
+
 ## [0.6.1](https://github.com/aifivem/ai-core/compare/v0.6.0...v0.6.1) (2026-11-04)
 
 
