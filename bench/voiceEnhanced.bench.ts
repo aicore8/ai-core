@@ -10,6 +10,10 @@ plugin({
       exports: { ResourceName: "ai-voice" },
       loader: "object",
     }));
+    build.module("common/proximity", () => ({
+      exports: { RANGE_MAX: 100 },
+      loader: "object",
+    }));
   },
 });
 
@@ -18,6 +22,7 @@ const calls: Record<string, number> = {};
 let nextChannel = 0;
 g.Citizen = {
   resultAsInteger: () => "int",
+  returnResultAnyway: () => "result",
   invokeNative: (hash: string) => {
     calls[hash] = (calls[hash] ?? 0) + 1;
     return hash === "0x7A70A736" ? nextChannel++ : undefined;
@@ -50,7 +55,8 @@ const reset = () => {
 };
 
 for (const count of [2048, 10_000]) {
-  const router = new EnhancedRouter(() => [1.5, 3, 6]);
+  // The per-range model (Enhanced builds without SET_PLAYER_VOICE_PROXIMITY_RANGE).
+  const router = new EnhancedRouter(() => [1.5, 3, 6], false);
   const talkers = Array.from({ length: count }, (_, i) => ({
     source: i + 1,
     distance: 3,
