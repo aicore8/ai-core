@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.3](https://github.com/aifivem/ai-core/compare/v0.6.2...v0.6.3) (2026-11-16)
+
+
+### Miscellaneous Chores
+
+* **bench:** voice bench for the router's per-range mode ([06c2ca2](https://github.com/aifivem/ai-core/commit/06c2ca28338248080306e3177b367d3d5bcaee9a))
+
 ## [0.6.2](https://github.com/aifivem/ai-core/compare/v0.6.1...v0.6.2) (2026-11-15)
 
 
