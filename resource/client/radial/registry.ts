@@ -1,4 +1,4 @@
-import type { RadialAdapter } from "@aifivem/shared";
+import type { RadialAdapter } from "@aicore8/shared";
 import { aiRadialmenu } from "./adapters/ai-radialmenu";
 import { codemSupremeRadialmenu } from "./adapters/codem-supreme-radialmenu";
 import { oxLibRadial } from "./adapters/ox_lib";

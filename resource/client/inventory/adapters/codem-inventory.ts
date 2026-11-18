@@ -1,6 +1,6 @@
-import type { InventoryClientAdapter } from "@aifivem/shared";
-import { callExport } from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
+import type { InventoryClientAdapter } from "@aicore8/shared";
+import { callExport } from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
 import { stacksOf } from "../stacks";
 
 /**

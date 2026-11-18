@@ -1,5 +1,5 @@
-import { waitFor } from "@aifivem/lib/shared";
-import type { CharacterResult } from "@aifivem/shared";
+import { waitFor } from "@aicore8/lib/shared";
+import type { CharacterResult } from "@aicore8/shared";
 import { characterExists } from "../admin/players/repo";
 import { moneyWriter } from "../money/writer";
 import type { Player } from "../player/player";

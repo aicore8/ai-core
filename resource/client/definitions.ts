@@ -2,9 +2,9 @@ import {
   AdminWorld,
   GlobalGroup,
   registerExport,
-} from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
-import { CORE } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
+import { CORE } from "@aicore8/shared";
 
 /**
  * Job and gang definitions on this client (panel files `jobs` / `gangs`, `sync: "all"`): the cached files, then

@@ -3,8 +3,8 @@ import {
   onServerEvent,
   stateString,
   waitForEntity,
-} from "@aifivem/lib/client";
-import { createLogger } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { createLogger } from "@aicore8/lib/shared";
 import { AdapterFollower } from "common/adapterFollower";
 import {
   VEHICLE_KEYS_CLIENT_EVENT,
@@ -12,7 +12,7 @@ import {
   toKeyPurpose,
   type KeyPurpose,
   type VehicleKeysClientAdapter,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 
 import { zeroRVehicleKeys } from "./adapters/0r-vehiclekeys";
 import { lifeSaverKeys } from "./adapters/LifeSaver_KeySystem";

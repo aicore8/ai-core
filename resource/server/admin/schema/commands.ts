@@ -1,4 +1,4 @@
-import type { FileSpec, TabSpec } from "@aifivem/shared";
+import type { FileSpec, TabSpec } from "@aicore8/shared";
 
 /** Commands: a memory file the scripts fill (never saved) and its read-only table tab. */
 

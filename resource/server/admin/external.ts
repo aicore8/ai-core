@@ -1,6 +1,6 @@
-import { ByResource, caller, registerExport } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
-import type { ExternalPanel } from "@aifivem/shared";
+import { ByResource, caller, registerExport } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
+import type { ExternalPanel } from "@aicore8/shared";
 import { panel } from "../content";
 
 const ID = /^[a-z0-9_.-]{2,48}$/i;

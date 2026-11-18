@@ -1,4 +1,4 @@
-import type { PhoneClientAdapter } from "@aifivem/shared";
+import type { PhoneClientAdapter } from "@aicore8/shared";
 import { onPhoneEvent } from "../phoneEvent";
 
 /** lb-phone: client event `lb-phone:phoneToggled (open)` (docs.lbscripts.com/phone/exports/client-events). */

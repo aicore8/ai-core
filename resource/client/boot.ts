@@ -1,6 +1,6 @@
-import { onServerEvent } from "@aifivem/lib/client";
-import { createLogger, waitFor } from "@aifivem/lib/shared";
-import { CORE, NUI_LAYER } from "@aifivem/shared";
+import { onServerEvent } from "@aicore8/lib/client";
+import { createLogger, waitFor } from "@aicore8/lib/shared";
+import { CORE, NUI_LAYER } from "@aicore8/shared";
 import { openCharacters } from "./characters";
 import { externalScreen } from "./multichar";
 import { announceUnloaded } from "./playerState";

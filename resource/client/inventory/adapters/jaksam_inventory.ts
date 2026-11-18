@@ -1,5 +1,5 @@
-import type { InventoryClientAdapter } from "@aifivem/shared";
-import { callExport } from "@aifivem/lib/client";
+import type { InventoryClientAdapter } from "@aicore8/shared";
+import { callExport } from "@aicore8/lib/client";
 
 /**
  * jaksam_inventory (from envi-bridge, codem-lib): `getTotalItemAmount(item)` counts an item; no export is known that

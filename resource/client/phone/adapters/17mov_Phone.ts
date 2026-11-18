@@ -1,4 +1,4 @@
-import type { PhoneClientAdapter } from "@aifivem/shared";
+import type { PhoneClientAdapter } from "@aicore8/shared";
 import { onPhoneEvent } from "../phoneEvent";
 
 /** `state` values that mean the app closed; the docs do not name them, so anything else still counts as an open. */

@@ -1,4 +1,4 @@
-import type { FuelAdapter } from "@aifivem/shared";
+import type { FuelAdapter } from "@aicore8/shared";
 import { fuelBag } from "../bags";
 
 /** A fuel script whose server keeps the `fuel` state bag: reading and writing the bag is its API. */

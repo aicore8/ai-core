@@ -1,4 +1,4 @@
-import { CORE } from "@aifivem/shared";
+import { CORE } from "@aicore8/shared";
 import { SETUP_WELCOME_EVENT, type SetupWelcome } from "common/setup";
 import { local } from "./content";
 

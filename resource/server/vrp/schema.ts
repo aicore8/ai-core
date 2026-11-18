@@ -1,5 +1,5 @@
-import { spec } from "@aifivem/lib/shared";
-import type { DataSpec, FileSpec } from "@aifivem/shared";
+import { spec } from "@aicore8/lib/shared";
+import type { DataSpec, FileSpec } from "@aicore8/shared";
 
 /**
  * `data/vrp.json` (ai-core's panel, server only): how vRP permission strings, group names and item ids map onto

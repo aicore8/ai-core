@@ -1,6 +1,6 @@
-import { Reasons, registerExport } from "@aifivem/lib/client";
-import { isResourceStarted } from "@aifivem/lib/fivem";
-import { CORE } from "@aifivem/shared";
+import { Reasons, registerExport } from "@aicore8/lib/client";
+import { isResourceStarted } from "@aicore8/lib/fivem";
+import { CORE } from "@aicore8/shared";
 
 /**
  * Pausing the weather and time sync (interiors, scenes, cut scenes) for whatever weather script runs: every reason is

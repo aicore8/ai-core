@@ -4,7 +4,7 @@ import type {
   AdminPatch,
   AdminResult,
   LookupOption,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { coreSchema } from "../../../resource/server/admin/schema";
 import { VRP_NEW_RULE } from "../../../resource/server/vrp/mappingCards";
 import accountsFile from "../../../data/accounts.json";

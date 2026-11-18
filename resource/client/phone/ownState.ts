@@ -1,4 +1,4 @@
-import { cache, type PlayerState } from "@aifivem/lib/client";
+import { cache, type PlayerState } from "@aicore8/lib/client";
 
 /**
  * A phone's "open" value in the local player's state bag turning true: one opening. Read on this client only, so a

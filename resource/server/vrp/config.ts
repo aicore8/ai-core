@@ -1,10 +1,10 @@
-import { isRecord } from "@aifivem/lib/shared";
+import { isRecord } from "@aicore8/lib/shared";
 import {
   VRP,
   type VrpConfig,
   type VrpGroupAlias,
   type VrpPermissionRule,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { gangs, jobs, panel } from "../content";
 import { log } from "../log";
 import { VRP_DEFAULTS } from "./schema";

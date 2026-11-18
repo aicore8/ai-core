@@ -1,5 +1,5 @@
-import { registerExport } from "@aifivem/lib/server";
-import { isRecord, waitFor } from "@aifivem/lib/shared";
+import { registerExport } from "@aicore8/lib/server";
+import { isRecord, waitFor } from "@aicore8/lib/shared";
 import type { Position } from "common/adminPlayers";
 import { characterExists } from "../admin/players/repo";
 import { log } from "../log";

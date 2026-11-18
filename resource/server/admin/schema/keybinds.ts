@@ -1,4 +1,4 @@
-import type { FileSpec, TabSpec } from "@aifivem/shared";
+import type { FileSpec, TabSpec } from "@aicore8/shared";
 import { text } from "./specs";
 
 /** Keybinds: their records file (`data/keybinds.json`) and tab. */

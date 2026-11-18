@@ -1,5 +1,5 @@
-import { PlayerState, stateBoolean } from "@aifivem/lib/server";
-import type { MedicalAdapter } from "@aifivem/shared";
+import { PlayerState, stateBoolean } from "@aicore8/lib/server";
+import type { MedicalAdapter } from "@aicore8/shared";
 
 /** esx_ambulancejob: ESX's `isDead` player state and the ambulance job's revive / heal client events. */
 const dead = new PlayerState("isDead", stateBoolean);

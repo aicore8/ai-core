@@ -1,4 +1,4 @@
-import type { FuelAdapter } from "@aifivem/shared";
+import type { FuelAdapter } from "@aicore8/shared";
 import { aiFuel } from "./adapters/ai-fuel";
 import { clientFuel } from "./adapters/client";
 import { codemXFuelV2 } from "./adapters/codem-xfuelv2";

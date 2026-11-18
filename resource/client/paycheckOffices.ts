@@ -6,9 +6,9 @@ import {
   menu,
   Points,
   stateString,
-} from "@aifivem/lib/client";
-import { groupDigits, readFinite, RecordObjects } from "@aifivem/lib/shared";
-import { CORE } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { groupDigits, readFinite, RecordObjects } from "@aicore8/lib/shared";
+import { CORE } from "@aicore8/shared";
 import { Locale } from "common";
 import { PAYCHECK_OFFICE, readPaycheckOffice } from "common/paycheckOffice";
 

@@ -1,9 +1,9 @@
-import { isOnline, registerExport } from "@aifivem/lib/server";
+import { isOnline, registerExport } from "@aicore8/lib/server";
 import {
   toDistressCall,
   type DistressCall,
   type EmsAdapter,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { Locale } from "common";
 import { AdapterPicker } from "common/adapters";
 import { panel, settings } from "../content";

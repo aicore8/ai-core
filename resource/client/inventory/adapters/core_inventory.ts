@@ -1,5 +1,5 @@
-import type { InventoryClientAdapter } from "@aifivem/shared";
-import { callExport } from "@aifivem/lib/client";
+import type { InventoryClientAdapter } from "@aicore8/shared";
+import { callExport } from "@aicore8/lib/client";
 import { toHeldWeapon } from "../heldWeapon";
 
 /** core_inventory (docs.c8re.store/core-inventory/exports): `openInventory()` opens the player's own, `getItemCount(item)` counts. */

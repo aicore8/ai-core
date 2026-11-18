@@ -1,5 +1,5 @@
-import { resourceExport } from "@aifivem/lib/server";
-import type { DispatchAdapter } from "@aifivem/shared";
+import { resourceExport } from "@aicore8/lib/server";
+import type { DispatchAdapter } from "@aicore8/shared";
 
 const alerts = resourceExport("ai-policealert");
 

@@ -1,5 +1,5 @@
-import { getPlayerData, onPlayerData } from "@aifivem/lib/client";
-import type { MedicalClientAdapter } from "@aifivem/shared";
+import { getPlayerData, onPlayerData } from "@aicore8/lib/client";
+import type { MedicalClientAdapter } from "@aicore8/shared";
 
 /** qb-ambulancejob: QB's `isdead` / `inlaststand` metadata on the player's own data. */
 export const qbAmbulance: MedicalClientAdapter = {

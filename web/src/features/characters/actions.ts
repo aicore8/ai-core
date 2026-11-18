@@ -1,7 +1,7 @@
 import type {
   CharacterScreen,
   CreateCharacterInput,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { NuiCallback } from "../../../../resource/common/nui";
 import { fetchNui } from "../../lib/nui";
 import { getState, update } from "./store";

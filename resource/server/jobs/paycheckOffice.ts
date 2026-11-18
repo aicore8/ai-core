@@ -4,7 +4,7 @@ import {
   notify,
   onClientCallback,
   stateString,
-} from "@aifivem/lib/server";
+} from "@aicore8/lib/server";
 import {
   type ActionResult,
   fail,
@@ -12,12 +12,12 @@ import {
   oneArg,
   readInt,
   readText,
-} from "@aifivem/lib/shared";
+} from "@aicore8/lib/shared";
 import {
   CORE,
   type PaycheckMode,
   type PaycheckWithdrawal,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { Locale } from "common";
 import { PAYCHECK_OFFICE, readPaycheckOffice } from "common/paycheckOffice";
 import { panel, settings } from "../content";

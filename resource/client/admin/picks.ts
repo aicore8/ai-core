@@ -1,4 +1,4 @@
-import { round as roundTo } from "@aifivem/lib/shared";
+import { round as roundTo } from "@aicore8/lib/shared";
 import { direction, freeFly } from "./freecam";
 
 /** The free camera picks of the panel's point and entity widgets. */

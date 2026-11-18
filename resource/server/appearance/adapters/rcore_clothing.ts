@@ -1,6 +1,6 @@
-import { callExport } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
-import type { AppearanceAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
+import type { AppearanceAdapter } from "@aicore8/shared";
 import { citizenidOf, modelOf } from "../citizen";
 
 /**

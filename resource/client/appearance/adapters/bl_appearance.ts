@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/client";
-import type { AppearanceClientAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/client";
+import type { AppearanceClientAdapter } from "@aicore8/shared";
 
 const RESOURCE = "bl_appearance";
 

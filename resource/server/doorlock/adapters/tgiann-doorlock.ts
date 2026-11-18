@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { DoorlockAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { DoorlockAdapter } from "@aicore8/shared";
 
 /**
  * tgiann-doorlock: doors by key; server exports `SetDoorLocked(key, locked) -> boolean` (false for an unknown door)

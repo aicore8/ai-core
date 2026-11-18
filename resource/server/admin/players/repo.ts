@@ -1,5 +1,5 @@
-import { mysql } from "@aifivem/mysql";
-import type { CharacterInfo } from "@aifivem/shared";
+import { mysql } from "@aicore8/mysql";
+import type { CharacterInfo } from "@aicore8/shared";
 import type { Position } from "common/adminPlayers";
 import { db } from "../../db";
 

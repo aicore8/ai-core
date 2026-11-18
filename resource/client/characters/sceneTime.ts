@@ -1,4 +1,4 @@
-import { CORE, type CharacterScene } from "@aifivem/shared";
+import { CORE, type CharacterScene } from "@aicore8/shared";
 import { worldSync } from "../world";
 
 /** The weather sync pause contract (qb-weathersync's client events, answered by ai-weathersync). */

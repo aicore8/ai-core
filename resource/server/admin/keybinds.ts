@@ -1,5 +1,5 @@
-import { isRecord } from "@aifivem/lib/shared";
-import type { KeybindInfo } from "@aifivem/shared";
+import { isRecord } from "@aicore8/lib/shared";
+import type { KeybindInfo } from "@aicore8/shared";
 import { panel } from "../content";
 
 /**

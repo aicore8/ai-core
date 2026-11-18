@@ -1,4 +1,4 @@
-import type { CardSpec, WidgetSpec } from "@aifivem/shared";
+import type { CardSpec, WidgetSpec } from "@aicore8/shared";
 
 /** Cards of the vRP tab that map permission strings and group names onto jobs, gangs and admin. No FiveM code here. */
 

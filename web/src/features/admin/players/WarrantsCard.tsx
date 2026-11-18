@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandcuffs, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { WARRANT_DURATIONS, type Warrant } from "@aifivem/shared";
+import { WARRANT_DURATIONS, type Warrant } from "@aicore8/shared";
 import type { CharacterView } from "../../../../../resource/common/adminPlayers";
 import { Button } from "../../../components/ui/button";
 import { Input } from "../../../components/ui/input";

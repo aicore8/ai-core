@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import type { TabSpec } from "@aifivem/shared";
+import type { TabSpec } from "@aicore8/shared";
 import { cn } from "../../lib/utils";
 import { goTo } from "./actions";
 import { getAt } from "./path";

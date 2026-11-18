@@ -1,4 +1,4 @@
-import type { JobOutfit } from "@aifivem/shared";
+import type { JobOutfit } from "@aicore8/shared";
 
 /** QB job outfit keys (`qb-clothing:client:loadOutfit`'s `outfitData`) per component and prop id. */
 const COMPONENT_KEYS: Record<number, string> = {

@@ -2,13 +2,13 @@ import {
   caller,
   registerExport,
   triggerServerCallback,
-} from "@aifivem/lib/client";
-import { isRecord, logSafe } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { isRecord, logSafe } from "@aicore8/lib/shared";
 import {
   ITEM_PICKER_CALLBACK,
   type ItemPickerData,
   type PickerItem,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { Locale } from "common";
 import { dialogs } from "./menu";
 

@@ -4,9 +4,9 @@ import {
   registerExport,
   stateString,
   vehicleNearPlayer,
-} from "@aifivem/lib/server";
-import { readFinite, readId } from "@aifivem/lib/shared";
-import { FUEL_REPORT_EVENT, FUEL_STATE_KEY } from "@aifivem/shared";
+} from "@aicore8/lib/server";
+import { readFinite, readId } from "@aicore8/lib/shared";
+import { FUEL_REPORT_EVENT, FUEL_STATE_KEY } from "@aicore8/shared";
 import { AdapterPicker } from "common/adapters";
 import { panel, settings } from "../content";
 import { log } from "../log";

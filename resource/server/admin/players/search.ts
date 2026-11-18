@@ -1,4 +1,4 @@
-import { mysql } from "@aifivem/mysql";
+import { mysql } from "@aicore8/mysql";
 import { SEARCH_PAGE, type SearchPage } from "../../../common/adminPlayers";
 
 /**

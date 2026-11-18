@@ -2,7 +2,7 @@ import {
   isWeather,
   type CharacterScene,
   type SceneSpot,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { bool, int, num, record, vec4 } from "./parse";
 
 /** The character screen scene (settings section `characterScene`): parsing and the default scene. */

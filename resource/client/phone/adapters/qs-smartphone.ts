@@ -1,5 +1,5 @@
-import { isRecord } from "@aifivem/lib/shared";
-import type { PhoneClientAdapter } from "@aifivem/shared";
+import { isRecord } from "@aicore8/lib/shared";
+import type { PhoneClientAdapter } from "@aicore8/shared";
 
 /**
  * qs-smartphone: local client event `phone:opened ({ mode: "full" | "peek" })`; a peek (notification view) is not a

@@ -1,8 +1,8 @@
-import { cache, callExport } from "@aifivem/lib/client";
+import { cache, callExport } from "@aicore8/lib/client";
 import type {
   AppearanceClientAdapter,
   ClothingMenu,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { qbOutfit } from "../qbOutfit";
 
 const RESOURCE = "illenium-appearance";

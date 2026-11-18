@@ -1,4 +1,4 @@
-import type { AdminPanelSnapshot, WidgetSpec } from "@aifivem/shared";
+import type { AdminPanelSnapshot, WidgetSpec } from "@aicore8/shared";
 import { getAt } from "./path";
 
 /** A field of some script's panel the setup guide shows (a record's field when `key` is set). */

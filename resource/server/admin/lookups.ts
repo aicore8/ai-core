@@ -1,6 +1,6 @@
 import { players } from "../player/registry";
-import { registerExport } from "@aifivem/lib/server";
-import type { LookupOption, Lookups, LookupSource } from "@aifivem/shared";
+import { registerExport } from "@aicore8/lib/server";
+import type { LookupOption, Lookups, LookupSource } from "@aicore8/shared";
 import { accountTypes, gangs, jobs } from "../content";
 import { inventory } from "../inventory/active";
 

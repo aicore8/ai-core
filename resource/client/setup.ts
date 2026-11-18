@@ -1,5 +1,5 @@
-import { loadLocaleTexts, onServerEvent } from "@aifivem/lib/client";
-import { isRecord, sleep } from "@aifivem/lib/shared";
+import { loadLocaleTexts, onServerEvent } from "@aicore8/lib/client";
+import { isRecord, sleep } from "@aicore8/lib/shared";
 import { NuiCallback, NuiMessage } from "common/nui";
 import { SETUP_WELCOME_EVENT, type SetupWelcome } from "common/setup";
 import { panel } from "./admin/panel";

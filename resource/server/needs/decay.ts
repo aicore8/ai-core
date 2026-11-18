@@ -1,4 +1,4 @@
-import { every } from "@aifivem/lib/server";
+import { every } from "@aicore8/lib/server";
 import { players } from "../player/registry";
 import { stressRelief } from "../stress";
 import { needsSettings, needsStore } from "./store";

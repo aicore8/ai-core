@@ -1,7 +1,7 @@
 import type {
   CharacterActionResult,
   CreateCharacterInput,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { insertCharacter, listCharacters } from "../characters/repo";
 import { coreLog } from "../logs";
 import { BUSY, lock } from "./actionLock";

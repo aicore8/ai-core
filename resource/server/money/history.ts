@@ -1,6 +1,6 @@
-import { mysql } from "@aifivem/mysql";
-import { isRecord } from "@aifivem/lib/shared";
-import type { LedgerPage } from "@aifivem/shared";
+import { mysql } from "@aicore8/mysql";
+import { isRecord } from "@aicore8/lib/shared";
+import type { LedgerPage } from "@aicore8/shared";
 import { players } from "../player/registry";
 
 const EMPTY: LedgerPage = { rows: [], next: null };

@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { BankingAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { BankingAdapter } from "@aicore8/shared";
 import { balanceOf, firstOf } from "../answer";
 
 const RESOURCE = "Renewed-Banking";

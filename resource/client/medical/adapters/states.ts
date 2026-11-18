@@ -4,8 +4,8 @@ import {
   stateBoolean,
   stateNumber,
   stateString,
-} from "@aifivem/lib/client";
-import { PLAYER_BAGS, type MedicalClientAdapter } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { PLAYER_BAGS, type MedicalClientAdapter } from "@aicore8/shared";
 
 /** A death script that marks the down player in a player state bag: the local player's value decides. */
 function stateAdapter<T>(

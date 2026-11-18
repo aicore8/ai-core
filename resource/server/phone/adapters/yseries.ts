@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { PhoneAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { PhoneAdapter } from "@aicore8/shared";
 
 const RESOURCE = "yseries";
 const phone = (name: string, ...args: unknown[]) =>

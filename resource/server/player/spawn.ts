@@ -2,13 +2,13 @@ import {
   onClientCallback,
   onClientEvent,
   PlayerMap,
-} from "@aifivem/lib/server";
-import { oneArg, readInt } from "@aifivem/lib/shared";
+} from "@aicore8/lib/server";
+import { oneArg, readInt } from "@aicore8/lib/shared";
 import {
   CORE,
   type CharacterActionResult,
   type SpawnPoint,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import type { CharacterRow } from "../characters/repo";
 import { settings } from "../content";
 import { externalScreen } from "../multichar/screen";

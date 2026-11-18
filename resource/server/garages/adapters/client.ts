@@ -1,4 +1,4 @@
-import { GARAGES_CLIENT_EVENT, type GarageAdapter } from "@aifivem/shared";
+import { GARAGES_CLIENT_EVENT, type GarageAdapter } from "@aicore8/shared";
 
 /**
  * A garage script whose actions run on a player's client: the server half sends them to that player, where ai-core's

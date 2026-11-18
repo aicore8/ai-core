@@ -1,4 +1,4 @@
-import { isRecord } from "@aifivem/lib/shared";
+import { isRecord } from "@aicore8/lib/shared";
 
 export interface Time {
   hour: number;

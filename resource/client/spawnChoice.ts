@@ -2,9 +2,9 @@ import {
   menu,
   onServerEvent,
   triggerServerCallback,
-} from "@aifivem/lib/client";
-import { createLogger, isRecord } from "@aifivem/lib/shared";
-import { CORE } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { createLogger, isRecord } from "@aicore8/lib/shared";
+import { CORE } from "@aicore8/shared";
 import { Locale, ResourceName } from "common";
 
 const log = createLogger(ResourceName);

@@ -1,6 +1,6 @@
-import { caller, registerExport } from "@aifivem/lib/client";
-import { createLogger } from "@aifivem/lib/shared";
-import type { RadialAdapter, RadialItem } from "@aifivem/shared";
+import { caller, registerExport } from "@aicore8/lib/client";
+import { createLogger } from "@aicore8/lib/shared";
+import type { RadialAdapter, RadialItem } from "@aicore8/shared";
 import { RADIALS } from "./registry";
 import { toRadialItem } from "./parse";
 import { AdapterPicker } from "common/adapters";

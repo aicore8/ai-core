@@ -1,4 +1,4 @@
-import type { WidgetSpec } from "@aifivem/shared";
+import type { WidgetSpec } from "@aicore8/shared";
 import { useEditor } from "./context";
 import { FieldShell } from "./FieldShell";
 import { getAt } from "./path";

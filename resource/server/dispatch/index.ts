@@ -1,5 +1,5 @@
-import { coordsOf, isOnline, registerExport } from "@aifivem/lib/server";
-import { toDispatchAlert, type DispatchAlert } from "@aifivem/shared";
+import { coordsOf, isOnline, registerExport } from "@aicore8/lib/server";
+import { toDispatchAlert, type DispatchAlert } from "@aicore8/shared";
 import { AdapterPicker } from "common/adapters";
 import { panel, settings } from "../content";
 import { log } from "../log";

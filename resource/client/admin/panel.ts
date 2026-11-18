@@ -3,9 +3,9 @@ import {
   loadLocaleTexts,
   triggerServerCallback,
   vehicleLabel,
-} from "@aifivem/lib/client";
-import { isRecord, record } from "@aifivem/lib/shared";
-import { ADMIN, type AdminShowTarget } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { isRecord, record } from "@aicore8/lib/shared";
+import { ADMIN, type AdminShowTarget } from "@aicore8/shared";
 import { NuiMessage } from "common/nui";
 import { keybinds } from "../keybinds";
 import { isLoaded } from "../playerState";

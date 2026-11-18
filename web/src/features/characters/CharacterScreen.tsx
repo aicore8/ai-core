@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "motion/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCity, faPlay, faTrashCan } from "@fortawesome/free-solid-svg-icons";
-import type { Branding } from "@aifivem/shared";
+import type { Branding } from "@aicore8/shared";
 import {
   PillBar,
   PillButton,

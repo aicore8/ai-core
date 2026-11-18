@@ -1,4 +1,4 @@
-import { mysql } from "@aifivem/mysql";
+import { mysql } from "@aicore8/mysql";
 import { db } from "../db";
 
 /** The account behind a connection: the FiveM id is the key (owner decision), other identifiers ride along. */

@@ -1,5 +1,5 @@
-import { SourceLock } from "@aifivem/lib/server";
-import type { CharacterActionResult } from "@aifivem/shared";
+import { SourceLock } from "@aicore8/lib/server";
+import type { CharacterActionResult } from "@aicore8/shared";
 
 /** One character screen action at a time per player (screen callbacks, script logins, logout). */
 export const lock = new SourceLock();

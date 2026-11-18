@@ -5,15 +5,15 @@ import {
   registerExport,
   stateString,
   vehicleFromNet,
-} from "@aifivem/lib/server";
-import { normalizePlate, readId } from "@aifivem/lib/shared";
+} from "@aicore8/lib/server";
+import { normalizePlate, readId } from "@aicore8/lib/shared";
 import {
   toKeyPurpose,
   VEHICLE_KEY_HELD_EVENT,
   VEHICLE_KEYS_HAS_CALLBACK,
   VEHICLE_KEYS_STATE_KEY,
   type KeyTarget,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { AdapterPicker } from "common/adapters";
 import { panel, settings } from "../content";
 import { log } from "../log";

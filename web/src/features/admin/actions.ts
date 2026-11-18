@@ -5,7 +5,7 @@ import type {
   ExternalPanel,
   Lookups,
   UpdateInfo,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { NuiCallback } from "../../../../resource/common/nui";
 import { router } from "../../router";
 import { store } from "../../store";

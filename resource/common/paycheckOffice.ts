@@ -7,7 +7,7 @@ import {
   readPlacePed,
   record,
   str,
-} from "@aifivem/lib/shared";
+} from "@aicore8/lib/shared";
 
 /**
  * Paycheck offices: the places where players collect the salary the paycheck's office mode keeps (panel records file

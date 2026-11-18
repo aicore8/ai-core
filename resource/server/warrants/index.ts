@@ -1,6 +1,6 @@
-import { caller, every, registerExport } from "@aifivem/lib/server";
-import { fail, isRecord } from "@aifivem/lib/shared";
-import { CORE, type WarrantPage, type WarrantResult } from "@aifivem/shared";
+import { caller, every, registerExport } from "@aicore8/lib/server";
+import { fail, isRecord } from "@aicore8/lib/shared";
+import { CORE, type WarrantPage, type WarrantResult } from "@aicore8/shared";
 import { readMinutes } from "../bans/parse";
 import { answer } from "../characters/answer";
 import { toCharId } from "../characters/edit";

@@ -1,5 +1,5 @@
-import { DataFile } from "@aifivem/lib/server";
-import type { LogLevel } from "@aifivem/shared";
+import { DataFile } from "@aicore8/lib/server";
+import type { LogLevel } from "@aicore8/shared";
 import { ResourceName } from "common";
 import { bool, record, str } from "../content/parse";
 import { log } from "../log";

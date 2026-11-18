@@ -1,10 +1,10 @@
-import { GlobalKey, registerExport, stateString } from "@aifivem/lib/server";
+import { GlobalKey, registerExport, stateString } from "@aicore8/lib/server";
 import {
   CORE,
   toMdtRecord,
   type MdtRecord,
   type Warrant,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { AdapterPicker } from "common/adapters";
 import { answer } from "../characters/answer";
 import { panel, settings } from "../content";

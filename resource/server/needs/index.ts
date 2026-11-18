@@ -1,6 +1,6 @@
-import { registerExport } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
-import { CORE } from "@aifivem/shared";
+import { registerExport } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
+import { CORE } from "@aicore8/shared";
 import { isNeed, NEEDS } from "common/needs";
 import { players } from "../player/registry";
 import { addStress } from "../stress";

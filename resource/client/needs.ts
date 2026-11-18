@@ -9,8 +9,8 @@ import {
   notify,
   onPlayerData,
   onStop,
-} from "@aifivem/lib/client";
-import { CORE } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { CORE } from "@aicore8/shared";
 import { Locale } from "common";
 import {
   NEEDS,

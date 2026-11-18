@@ -1,4 +1,4 @@
-import { isRecord } from "@aifivem/lib/shared";
+import { isRecord } from "@aicore8/lib/shared";
 import { readCharacter, toCharId } from "../characters/edit";
 import { findCharacter } from "../characters/repo";
 import { saveCharacters } from "../characters/save";

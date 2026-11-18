@@ -2,14 +2,14 @@ import {
   registerExport,
   onServerEvent,
   triggerServerCallback,
-} from "@aifivem/lib/client";
-import { createLogger, isRecord, sleep } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { createLogger, isRecord, sleep } from "@aicore8/lib/shared";
 import {
   CLIENT_ITEM_DEFINITIONS_EVENT,
   ITEM_DEFINITIONS_CALLBACK,
   ITEM_DEFINITIONS_EVENT,
   type ItemDefinition,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 
 /**
  * The active inventory's item definitions on this client (server side: `server/inventory/clientDefinitions.ts`): one

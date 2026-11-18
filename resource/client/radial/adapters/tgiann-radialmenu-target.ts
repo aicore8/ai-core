@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/client";
-import type { RadialAdapter, RadialItem } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/client";
+import type { RadialAdapter, RadialItem } from "@aicore8/shared";
 
 const RESOURCE = "tgiann-radialmenu-target";
 

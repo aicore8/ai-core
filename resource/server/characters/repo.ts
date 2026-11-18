@@ -1,6 +1,6 @@
-import { isRecord } from "@aifivem/lib/shared";
-import type { CharacterInfo, CreateCharacterInput, Sex } from "@aifivem/shared";
-import { mysql } from "@aifivem/mysql";
+import { isRecord } from "@aicore8/lib/shared";
+import type { CharacterInfo, CreateCharacterInput, Sex } from "@aicore8/shared";
+import { mysql } from "@aicore8/mysql";
 
 /** SQL of characters. Every function takes the account (user id) so one account never touches another's rows. */
 

@@ -1,5 +1,5 @@
-import { spec } from "@aifivem/lib/shared";
-import type { DataSpec, FileSpec, TabSpec, WidgetSpec } from "@aifivem/shared";
+import { spec } from "@aicore8/lib/shared";
+import type { DataSpec, FileSpec, TabSpec, WidgetSpec } from "@aicore8/shared";
 import { NEEDS_DEFAULTS } from "../../common/needs";
 import { HURT_CARD } from "./hurtCard";
 

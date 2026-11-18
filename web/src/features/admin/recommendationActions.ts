@@ -2,7 +2,7 @@ import type {
   AdminPanelSnapshot,
   Recommendation,
   RecommendationDelta,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { store } from "../../store";
 import {
   recommendationChanged,

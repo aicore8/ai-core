@@ -7,7 +7,7 @@ g.GetConvar = (_name: string, fallback: string) => fallback;
 g.GetConvarInt = (_name: string, fallback: number) => fallback;
 g.on = () => undefined;
 
-const { mysql } = await import("@aifivem/mysql");
+const { mysql } = await import("@aicore8/mysql");
 const { moneyWriter } = await import("../resource/server/money/writer");
 
 let statements = 0;

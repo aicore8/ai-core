@@ -1,4 +1,4 @@
-import { CORE, type UnloadReason } from "@aifivem/shared";
+import { CORE, type UnloadReason } from "@aicore8/shared";
 import { panel } from "../../content";
 import { databaseReady } from "../../database";
 import { log } from "../../log";

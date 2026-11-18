@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { BillingAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { BillingAdapter } from "@aicore8/shared";
 import { accepted, first } from "../answer";
 
 const RESOURCE = "wasabi_billing";

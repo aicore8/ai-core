@@ -1,4 +1,4 @@
-import type { BanInfo } from "@aifivem/shared";
+import type { BanInfo } from "@aicore8/shared";
 import { Locale } from "common";
 import { BanStore } from "./store";
 

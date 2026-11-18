@@ -3,7 +3,7 @@ import type {
   GangDefinition,
   GradeDefinition,
   JobDefinition,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { bool, int, record, str } from "./parse";
 import { readJobPrime, type PrimeHours } from "./primeTime";
 

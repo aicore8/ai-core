@@ -1,6 +1,6 @@
-import { callExport } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
-import type { BillingAdapter, UnpaidBill } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
+import type { BillingAdapter, UnpaidBill } from "@aicore8/shared";
 import { accepted, first, listOf } from "../answer";
 
 const RESOURCE = "okokBilling";

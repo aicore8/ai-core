@@ -3,13 +3,13 @@ import {
   onServerEvent,
   stateString,
   waitForEntity,
-} from "@aifivem/lib/client";
-import { createLogger } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { createLogger } from "@aicore8/lib/shared";
 import {
   GARAGES_CLIENT_EVENT,
   GARAGES_STATE_KEY,
   type GarageClientAdapter,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { AdapterFollower } from "common/adapterFollower";
 import { cdGarage } from "./adapters/cd_garage";
 import { jgAdvancedGarages } from "./adapters/jg-advancedgarages";

@@ -1,4 +1,4 @@
-import { fromServer, onServerEvent } from "@aifivem/lib/client";
+import { fromServer, onServerEvent } from "@aicore8/lib/client";
 
 /**
  * A phone event its docs listen to with `RegisterNetEvent`: it may come from the phone's client (a local emit) or its

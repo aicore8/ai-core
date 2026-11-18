@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/client";
-import type { VehicleKeysClientAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/client";
+import type { VehicleKeysClientAdapter } from "@aicore8/shared";
 
 /** ak47_qb_vehiclekeys client exports by plate (second argument: a local vehicle) (untested on ai-core). */
 export const ak47QbVehicleKeys: VehicleKeysClientAdapter = {

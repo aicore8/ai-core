@@ -1,6 +1,6 @@
-import { callExport } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
-import type { GarageAdapter, GaragedVehicle } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
+import type { GarageAdapter, GaragedVehicle } from "@aicore8/shared";
 import { players } from "../../player/registry";
 
 const RESOURCE = "tgiann-realparking";

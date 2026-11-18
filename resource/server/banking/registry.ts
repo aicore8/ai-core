@@ -1,4 +1,4 @@
-import type { BankingAdapter } from "@aifivem/shared";
+import type { BankingAdapter } from "@aicore8/shared";
 import { aiBanking } from "./adapters/ai-banking";
 import {
   fdBanking,

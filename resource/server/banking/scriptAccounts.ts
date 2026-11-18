@@ -2,7 +2,7 @@ import type {
   BankingAccounts,
   BankingAdapter,
   SocietyType,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { settings } from "../content";
 import { log } from "../log";
 import type { Account } from "../money/account";

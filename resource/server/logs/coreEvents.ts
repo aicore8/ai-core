@@ -4,7 +4,7 @@ import {
   type GangMembership,
   type JobMembership,
   type UnloadReason,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { settings } from "../content";
 import { players } from "../player/registry";
 import { coreLog } from "./index";

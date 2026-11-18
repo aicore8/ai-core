@@ -3,9 +3,9 @@ import {
   GlobalKey,
   registerExport,
   stateString,
-} from "@aifivem/lib/client";
-import { createLogger } from "@aifivem/lib/shared";
-import { CORE, type MdtClientAdapter } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { createLogger } from "@aicore8/lib/shared";
+import { CORE, type MdtClientAdapter } from "@aicore8/shared";
 import { AdapterFollower } from "common/adapterFollower";
 
 /** A client export without arguments that opens the MDT (it checks the job itself). */

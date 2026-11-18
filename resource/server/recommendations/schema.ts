@@ -1,4 +1,4 @@
-import type { CardSpec, DataSpec } from "@aifivem/shared";
+import type { CardSpec, DataSpec } from "@aicore8/shared";
 
 /** Settings section `recommendations` (no FiveM code here: the web preview imports the panel schema). */
 export const RECOMMENDATIONS_SECTION: DataSpec = {

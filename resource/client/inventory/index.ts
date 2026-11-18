@@ -2,14 +2,14 @@ import {
   GlobalKey,
   registerExport,
   stateString,
-} from "@aifivem/lib/client";
-import { createLogger } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { createLogger } from "@aicore8/lib/shared";
 import {
   CLIENT_ITEM_COUNT_EVENT,
   CORE,
   INVENTORY_STATE_KEY,
   type InventoryStack,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { AdapterFollower } from "common/adapterFollower";
 import { aiInventory } from "./adapters/ai-inventory";
 import { codemInventory } from "./adapters/codem-inventory";

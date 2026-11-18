@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/client";
-import type { VehicleKeysClientAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/client";
+import type { VehicleKeysClientAdapter } from "@aicore8/shared";
 
 /** filo_vehiclekey client exports by plate (untested on ai-core). */
 export const filoVehicleKey: VehicleKeysClientAdapter = {

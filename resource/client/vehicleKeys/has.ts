@@ -4,12 +4,12 @@ import {
   plateOf,
   registerExport,
   triggerServerCallback,
-} from "@aifivem/lib/client";
-import { createLogger, normalizePlate } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { createLogger, normalizePlate } from "@aicore8/lib/shared";
 import {
   VEHICLE_KEY_HELD_EVENT,
   VEHICLE_KEYS_HAS_CALLBACK,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 
 /**
  * Client `HasVehicleKeys(vehicle | plate)`: exports stay synchronous, so the answer comes from a short-lived mirror of

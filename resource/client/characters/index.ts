@@ -1,4 +1,4 @@
-import { createLogger, isRecord } from "@aifivem/lib/shared";
+import { createLogger, isRecord } from "@aicore8/lib/shared";
 import {
   fadeIn,
   fadeOut,
@@ -6,8 +6,8 @@ import {
   onServerEvent,
   onStop,
   triggerServerCallback,
-} from "@aifivem/lib/client";
-import { CORE, type CharacterScreen } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { CORE, type CharacterScreen } from "@aicore8/shared";
 import { NuiCallback, NuiMessage } from "common/nui";
 import { hudHidden } from "../hud";
 import { announceLoaded } from "../playerState";

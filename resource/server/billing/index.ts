@@ -1,10 +1,10 @@
-import { registerExport } from "@aifivem/lib/server";
+import { registerExport } from "@aicore8/lib/server";
 import {
   toBillRequest,
   type BillRequest,
   type BillSend,
   type UnpaidBill,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { AdapterPicker } from "common/adapters";
 import { jobs, panel, settings } from "../content";
 import { log } from "../log";

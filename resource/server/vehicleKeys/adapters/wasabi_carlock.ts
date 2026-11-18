@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { VehicleKeysAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { VehicleKeysAdapter } from "@aicore8/shared";
 
 /** wasabi_carlock server exports `GiveKey` / `RemoveKey` / `HasKey` (source, plate) (its docs; untested on ai-core). */
 export const wasabiCarlock: VehicleKeysAdapter = {

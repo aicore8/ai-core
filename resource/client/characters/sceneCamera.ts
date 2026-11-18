@@ -1,6 +1,6 @@
-import { every, ScriptCamera, type Job } from "@aifivem/lib/client";
-import type { Vec3 } from "@aifivem/lib/shared";
-import type { SceneSpot } from "@aifivem/shared";
+import { every, ScriptCamera, type Job } from "@aicore8/lib/client";
+import type { Vec3 } from "@aicore8/lib/shared";
+import type { SceneSpot } from "@aicore8/shared";
 
 const MOVE_MS = 500;
 const SWAY_MS = 10_000;

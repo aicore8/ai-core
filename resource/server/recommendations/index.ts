@@ -1,6 +1,6 @@
-import { isResourceStarted } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
-import type { Recommendation, RecommendationDelta } from "@aifivem/shared";
+import { isResourceStarted } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
+import type { Recommendation, RecommendationDelta } from "@aicore8/shared";
 import { Locale } from "common";
 import { panel } from "../content";
 import { log } from "../log";

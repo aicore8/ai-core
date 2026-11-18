@@ -1,4 +1,4 @@
-import type { DispatchAdapter } from "@aifivem/shared";
+import type { DispatchAdapter } from "@aicore8/shared";
 
 /**
  * linden_outlawalert (ESX, archived; written from its 2.7.1 source): the server event `wf-alerts:svNotify` with a

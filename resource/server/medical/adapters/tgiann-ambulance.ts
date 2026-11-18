@@ -2,8 +2,8 @@ import {
   callExport,
   PlayerState,
   stateBoolean,
-} from "@aifivem/lib/server";
-import type { MedicalAdapter } from "@aifivem/shared";
+} from "@aicore8/lib/server";
+import type { MedicalAdapter } from "@aicore8/shared";
 
 /**
  * tgiann-ambulance: its server sets the `isDead` player state (down or dead) and exports

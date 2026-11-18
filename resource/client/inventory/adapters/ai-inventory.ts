@@ -1,5 +1,5 @@
-import { callExport, resourceExport } from "@aifivem/lib/client";
-import type { InventoryClientAdapter } from "@aifivem/shared";
+import { callExport, resourceExport } from "@aicore8/lib/client";
+import type { InventoryClientAdapter } from "@aicore8/shared";
 import { toHeldWeapon } from "../heldWeapon";
 import { stacksOf } from "../stacks";
 

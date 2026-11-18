@@ -1,6 +1,6 @@
-import { callExport } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
-import type { InventoryAdapter, ItemDefinition } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
+import type { InventoryAdapter, ItemDefinition } from "@aicore8/shared";
 import { definition, isTrue, number, rows, stack } from "../parse";
 
 /**

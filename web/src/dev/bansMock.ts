@@ -1,4 +1,4 @@
-import { banStatus, type BanRecord } from "@aifivem/shared";
+import { banStatus, type BanRecord } from "@aicore8/shared";
 import type { BansAction } from "../../../resource/common/adminBans";
 
 /**

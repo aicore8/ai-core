@@ -1,5 +1,5 @@
-import { GlobalKey, stateString } from "@aifivem/lib/server";
-import { CORE } from "@aifivem/shared";
+import { GlobalKey, stateString } from "@aicore8/lib/server";
+import { CORE } from "@aicore8/shared";
 import { AdapterPicker } from "common/adapters";
 import { panel, settings } from "../content";
 import { log } from "../log";

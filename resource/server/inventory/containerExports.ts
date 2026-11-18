@@ -1,4 +1,4 @@
-import { registerExport } from "@aifivem/lib/server";
+import { registerExport } from "@aicore8/lib/server";
 import { inventory } from "./active";
 import { name, products, ref } from "./args";
 

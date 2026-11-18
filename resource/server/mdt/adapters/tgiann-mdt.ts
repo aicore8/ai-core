@@ -1,5 +1,5 @@
-import { mysql } from "@aifivem/mysql";
-import type { MdtAdapter } from "@aifivem/shared";
+import { mysql } from "@aicore8/mysql";
+import type { MdtAdapter } from "@aicore8/shared";
 
 /**
  * tgiann-mdt (written from its source: sql.sql, server/server.lua): no exports and no records from scripts (its

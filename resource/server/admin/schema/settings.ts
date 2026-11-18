@@ -1,5 +1,5 @@
-import { spec } from "@aifivem/lib/shared";
-import type { FileSpec } from "@aifivem/shared";
+import { spec } from "@aicore8/lib/shared";
+import type { FileSpec } from "@aicore8/shared";
 import { DEFAULT_SCENE } from "../../content/scene";
 import { DEFAULT_PRIME_TIME, PRIME_SOURCES } from "../../content/primeTime";
 import { NOTIFY_SYSTEMS } from "../../notify/registry";

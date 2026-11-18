@@ -1,5 +1,5 @@
-import { isResourceStarted } from "@aifivem/lib/fivem";
-import type { Logger } from "@aifivem/lib/shared";
+import { isResourceStarted } from "@aicore8/lib/fivem";
+import type { Logger } from "@aicore8/lib/shared";
 import { guarded, type Adapter } from "./adapter";
 
 /** Runs before the first switch and after every one; `restarted` = the same adapter whose resource started again. */

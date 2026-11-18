@@ -1,4 +1,4 @@
-import { callExport } from "@aifivem/lib/server";
+import { callExport } from "@aicore8/lib/server";
 import { readTime, type WeatherAdapter } from "../adapter";
 
 /** qb-weathersync's export contract: ai-weathersync, qb-weathersync and Renewed-Weathersync answer it. */

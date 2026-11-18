@@ -1,4 +1,4 @@
-import type { DispatchAdapter } from "@aifivem/shared";
+import type { DispatchAdapter } from "@aicore8/shared";
 
 /**
  * rcore_dispatch (written from its docs, documentation.rcore.cz/paid-resources/rcore_dispatch/add-alerts): the server

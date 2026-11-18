@@ -1,4 +1,4 @@
-import type { PhoneClientAdapter } from "@aifivem/shared";
+import type { PhoneClientAdapter } from "@aicore8/shared";
 
 /** tgiann-phone: its client fires the local `tgiann-phone:hook:visibility (isOpen, onScreen)` (read in its `compat/lb-phone/client.lua`, 2.0.0-b8). */
 export const tgiannPhone: PhoneClientAdapter = {

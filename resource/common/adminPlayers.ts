@@ -9,7 +9,7 @@ import type {
   JobMembership,
   Sex,
   Warrant,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 
 export const ADMIN_PLAYERS = {
   /** Server -> admin client: (PlayersDelta), forwarded to the NUI while the panel is open. */

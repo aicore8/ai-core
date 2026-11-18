@@ -1,5 +1,5 @@
-import type { InventoryStack } from "@aifivem/shared";
-import { isRecord } from "@aifivem/lib/shared";
+import type { InventoryStack } from "@aicore8/shared";
+import { isRecord } from "@aicore8/lib/shared";
 
 /**
  * An inventory's client item list (an array or a slot-keyed table) as ai-core's stacks: `count` or `amount`,

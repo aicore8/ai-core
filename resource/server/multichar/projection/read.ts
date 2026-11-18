@@ -1,10 +1,10 @@
-import { isRecord } from "@aifivem/lib/shared";
+import { isRecord } from "@aicore8/lib/shared";
 import type {
   CharacterInfo,
   GangMembership,
   JobMembership,
-} from "@aifivem/shared";
-import { mysql } from "@aifivem/mysql";
+} from "@aicore8/shared";
+import { mysql } from "@aicore8/mysql";
 import { settings } from "../../content";
 import type { Player } from "../../player/player";
 

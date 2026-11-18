@@ -1,4 +1,4 @@
-import type { AdminResult } from "@aifivem/shared";
+import type { AdminResult } from "@aicore8/shared";
 import { goTo } from "./actions";
 import { send } from "./editActions";
 

@@ -2,9 +2,9 @@ import {
   Keybind,
   onServerEvent,
   triggerServerCallback,
-} from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
-import { ADMIN, toAdminShowTarget } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
+import { ADMIN, toAdminShowTarget } from "@aicore8/shared";
 import { Locale } from "common";
 import { NuiCallback, NuiMessage } from "common/nui";
 import { panel } from "./panel";

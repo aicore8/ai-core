@@ -1,4 +1,4 @@
-import type { CharacterScreen } from "@aifivem/shared";
+import type { CharacterScreen } from "@aicore8/shared";
 import en from "../../../locales/en.json";
 
 /** Browser preview only (`bun run dev` in web/): a fake client answering the NUI callbacks. */

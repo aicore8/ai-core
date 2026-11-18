@@ -4,14 +4,14 @@ import {
   onClientEvent,
   registerExport,
   stateString,
-} from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
+} from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
 import {
   CORE,
   type PhoneAdapter,
   type PhoneMail,
   type PhoneNotification,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { AdapterPicker } from "common/adapters";
 import { log } from "../log";
 import { mov17Phone } from "./adapters/17mov_Phone";

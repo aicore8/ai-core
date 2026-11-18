@@ -1,4 +1,4 @@
-import type { FileSpec, TabSpec } from "@aifivem/shared";
+import type { FileSpec, TabSpec } from "@aicore8/shared";
 import { DEFAULT_PRIME_TIME } from "../../content/primeTime";
 import { jobPrimeCard } from "./primeTime";
 import { bool, gradeRows, grades, ID, optionalHour, text } from "./specs";

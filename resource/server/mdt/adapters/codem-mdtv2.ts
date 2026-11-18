@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { MdtAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { MdtAdapter } from "@aicore8/shared";
 
 const RESOURCE = "codem-mdtv2";
 

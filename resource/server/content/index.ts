@@ -1,5 +1,5 @@
-import { AdminPanel, DataFile } from "@aifivem/lib/server";
-import { CORE } from "@aifivem/shared";
+import { AdminPanel, DataFile } from "@aicore8/lib/server";
+import { CORE } from "@aicore8/shared";
 import { ResourceName } from "common";
 import { coreSchema } from "../admin/schema";
 import { INVENTORY_NAMES } from "../inventory/names";

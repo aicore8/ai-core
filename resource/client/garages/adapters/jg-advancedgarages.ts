@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/client";
-import type { GarageClientAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/client";
+import type { GarageClientAdapter } from "@aicore8/shared";
 
 /**
  * jg-advancedgarages (docs, Client API): `openGarage(garageId)`, `storeVehicle(garageId)` (the vehicle the player sits

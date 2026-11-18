@@ -1,5 +1,5 @@
-import { isOnline, registerExport } from "@aifivem/lib/server";
-import { readText } from "@aifivem/lib/shared";
+import { isOnline, registerExport } from "@aicore8/lib/server";
+import { readText } from "@aicore8/lib/shared";
 import { AdapterPicker } from "common/adapters";
 import { panel, settings } from "../content";
 import { log } from "../log";

@@ -1,5 +1,5 @@
-import { caller, registerExport } from "@aifivem/lib/server";
-import { createLogger } from "@aifivem/lib/shared";
+import { caller, registerExport } from "@aicore8/lib/server";
+import { createLogger } from "@aicore8/lib/shared";
 import { Locale } from "common";
 import { settings } from "../content";
 import { identify } from "../player/users";

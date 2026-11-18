@@ -1,5 +1,5 @@
-import { TickLoop } from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
+import { TickLoop } from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
 import { NuiCallback } from "common/nui";
 
 type NuiReply = (value: unknown) => void;

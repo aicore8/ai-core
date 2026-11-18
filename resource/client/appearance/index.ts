@@ -2,8 +2,8 @@ import {
   GlobalKey,
   registerExport,
   stateString,
-} from "@aifivem/lib/client";
-import { createLogger } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { createLogger } from "@aicore8/lib/shared";
 import {
   APPEARANCE_STATE_KEY,
   CLOTHING_MENUS,
@@ -12,7 +12,7 @@ import {
   type AppearanceClientAdapter,
   type CharacterAppearance,
   type ClothingMenu,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { AdapterFollower } from "common/adapterFollower";
 import { aiAppearance } from "./adapters/ai-appearance";
 import { blAppearance } from "./adapters/bl_appearance";

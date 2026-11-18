@@ -1,5 +1,5 @@
-import { onStop, registerExport } from "@aifivem/lib/server";
-import { CORE } from "@aifivem/shared";
+import { onStop, registerExport } from "@aicore8/lib/server";
+import { CORE } from "@aicore8/shared";
 import { getCharacterInfo, type CharacterWithUser } from "../characters/info";
 import { log } from "../log";
 import { players } from "../player/registry";

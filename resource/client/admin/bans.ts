@@ -1,5 +1,5 @@
-import { onServerEvent, triggerServerCallback } from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
+import { onServerEvent, triggerServerCallback } from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
 import { ADMIN_BANS, isBansAction } from "common/adminBans";
 import { NuiCallback, NuiMessage } from "common/nui";
 import { panel } from "./panel";

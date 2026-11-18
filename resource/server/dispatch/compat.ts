@@ -2,7 +2,7 @@ import {
   addCommand,
   hasCharacter,
   onClientEvent,
-} from "@aifivem/lib/server";
+} from "@aicore8/lib/server";
 import { Locale } from "common";
 import { log } from "../log";
 import { dispatch, sendAlert } from ".";

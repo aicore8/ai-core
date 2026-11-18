@@ -1,4 +1,4 @@
-import type { MdtAdapter } from "@aifivem/shared";
+import type { MdtAdapter } from "@aicore8/shared";
 
 /** How long an answer is kept: adapters read the MDT's table or export, and several scripts may ask in a row. */
 const KEEP_MS = 30_000;

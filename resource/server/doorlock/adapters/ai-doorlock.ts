@@ -1,5 +1,5 @@
-import { resourceExport } from "@aifivem/lib/server";
-import type { DoorlockAdapter } from "@aifivem/shared";
+import { resourceExport } from "@aicore8/lib/server";
+import type { DoorlockAdapter } from "@aicore8/shared";
 
 /** ai-doorlock: doors by panel id, `SetDoorState(id, locked)` / `IsLocked(id)`. */
 const doors = resourceExport("ai-doorlock");

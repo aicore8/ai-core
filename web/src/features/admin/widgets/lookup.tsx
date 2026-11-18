@@ -1,5 +1,5 @@
 import { useMemo, useState, type KeyboardEvent, type ReactNode } from "react";
-import type { LookupOption, LookupSource } from "@aifivem/shared";
+import type { LookupOption, LookupSource } from "@aicore8/shared";
 import { Popover } from "../../../components/ui/popover";
 import { cn } from "../../../lib/utils";
 import { useAppSelector } from "../../../store";

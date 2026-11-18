@@ -1,5 +1,5 @@
-import { callExport, isOnline } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
+import { callExport, isOnline } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
 import type { PrisonAdapter } from "../adapter";
 
 /**

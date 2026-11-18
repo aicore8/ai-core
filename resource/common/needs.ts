@@ -1,4 +1,4 @@
-import { bool, int, num, record } from "@aifivem/lib/shared";
+import { bool, int, num, record } from "@aicore8/lib/shared";
 
 /**
  * Hunger and thirst: ai-core keeps them in character metadata (QB's keys, 0-100, 100 = full) and its panel file

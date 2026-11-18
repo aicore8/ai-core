@@ -3,8 +3,8 @@ import {
   GlobalKey,
   notify,
   stateBoolean,
-} from "@aifivem/lib/server";
-import { CORE } from "@aifivem/shared";
+} from "@aicore8/lib/server";
+import { CORE } from "@aicore8/shared";
 import { Locale } from "common";
 import { panel, settings } from "./content";
 

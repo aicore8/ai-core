@@ -1,6 +1,6 @@
-import { callExport } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
-import type { PhoneAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
+import type { PhoneAdapter } from "@aicore8/shared";
 
 const RESOURCE = "qs-smartphone";
 const phone = (name: string, ...args: unknown[]) =>

@@ -1,5 +1,5 @@
-import { isRecord } from "@aifivem/lib/shared";
-import { BAN_IDENTIFIERS } from "@aifivem/shared";
+import { isRecord } from "@aicore8/lib/shared";
+import { BAN_IDENTIFIERS } from "@aicore8/shared";
 import type { Identifiers } from "./store";
 
 /** Longest stored value per identifier type (the table's column sizes). */

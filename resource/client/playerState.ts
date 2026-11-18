@@ -2,8 +2,8 @@ import {
   getPlayerData,
   onPlayerData,
   registerExport,
-} from "@aifivem/lib/client";
-import { CORE, type AiPlayerData } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { CORE, type AiPlayerData } from "@aicore8/shared";
 
 /**
  * The player's own data on this client, as ai-core pushed it (snapshot at load, then deltas). Other client

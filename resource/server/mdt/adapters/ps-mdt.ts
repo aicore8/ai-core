@@ -1,5 +1,5 @@
-import { mysql } from "@aifivem/mysql";
-import type { MdtAdapter } from "@aifivem/shared";
+import { mysql } from "@aicore8/mysql";
+import type { MdtAdapter } from "@aicore8/shared";
 
 /**
  * ps-mdt 3.1.4 (written from its source: server/backend/warrants.lua, server/exports.lua): no server record or

@@ -5,7 +5,7 @@ import {
   faMagnifyingGlass,
   faPalette,
 } from "@fortawesome/free-solid-svg-icons";
-import type { WidgetSpec } from "@aifivem/shared";
+import type { WidgetSpec } from "@aicore8/shared";
 import { Button } from "../../../components/ui/button";
 import { Dialog } from "../../../components/ui/dialog";
 import { Popover } from "../../../components/ui/popover";

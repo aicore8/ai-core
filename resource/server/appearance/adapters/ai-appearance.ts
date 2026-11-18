@@ -1,5 +1,5 @@
-import { mysql } from "@aifivem/mysql";
-import type { AppearanceAdapter } from "@aifivem/shared";
+import { mysql } from "@aicore8/mysql";
+import type { AppearanceAdapter } from "@aicore8/shared";
 
 /** ai-appearance: one `Appearance` JSON per character in its own table (`model` = the freemode model name). */
 export const aiAppearance: AppearanceAdapter = {

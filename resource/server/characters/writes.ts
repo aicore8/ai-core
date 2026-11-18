@@ -1,5 +1,5 @@
-import { caller } from "@aifivem/lib/server";
-import type { CharacterResult } from "@aifivem/shared";
+import { caller } from "@aicore8/lib/server";
+import type { CharacterResult } from "@aicore8/shared";
 import type { MoneyMode } from "common/adminPlayers";
 import { changeError, offline } from "../admin/players/offline";
 import { settings } from "../content";

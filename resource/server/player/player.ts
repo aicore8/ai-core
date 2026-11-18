@@ -2,12 +2,12 @@ import {
   patchPlayerData,
   sendPlayerData,
   WriteQueue,
-} from "@aifivem/lib/server";
+} from "@aicore8/lib/server";
 import {
   CORE,
   type AiPlayerData,
   type CharacterInfo,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import type { CharacterRow } from "../characters/repo";
 import type { CharacterSave } from "../characters/save";
 import { charWatchers } from "../admin/players/charWatchers";

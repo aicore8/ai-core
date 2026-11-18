@@ -1,6 +1,6 @@
-import { callExport, Reasons, registerExport } from "@aifivem/lib/client";
-import { createLogger } from "@aifivem/lib/shared";
-import { CORE } from "@aifivem/shared";
+import { callExport, Reasons, registerExport } from "@aicore8/lib/client";
+import { createLogger } from "@aicore8/lib/shared";
+import { CORE } from "@aicore8/shared";
 import { AdapterPicker } from "common/adapters";
 
 /**

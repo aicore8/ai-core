@@ -1,6 +1,6 @@
-import { addCommand } from "@aifivem/lib/server";
-import { createLogger } from "@aifivem/lib/shared";
-import { collectQueryStats } from "@aifivem/mysql";
+import { addCommand } from "@aicore8/lib/server";
+import { createLogger } from "@aicore8/lib/shared";
+import { collectQueryStats } from "@aicore8/mysql";
 import { Locale } from "common";
 import { players } from "./player/registry";
 import { switchCharacter } from "./player/session";

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBox, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import type { PickerItem } from "@aifivem/shared";
+import type { PickerItem } from "@aicore8/shared";
 import { VirtualList } from "../../components/VirtualList";
 import { Input } from "../../components/ui/input";
 import { cn } from "../../lib/utils";

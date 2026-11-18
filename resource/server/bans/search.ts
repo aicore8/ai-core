@@ -1,10 +1,10 @@
-import { isRecord } from "@aifivem/lib/shared";
+import { isRecord } from "@aicore8/lib/shared";
 import {
   BAN_FILTERS,
   BAN_IDENTIFIERS,
   type BanCursor,
   type BanFilter,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 
 /** What a ban search and a `BanQuery` mean, read from another resource's or the panel's input. */
 

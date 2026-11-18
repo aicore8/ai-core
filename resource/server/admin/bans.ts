@@ -1,6 +1,6 @@
-import { isAdmin, onClientCallback } from "@aifivem/lib/server";
-import { fail, isRecord } from "@aifivem/lib/shared";
-import { BAN_IDENTIFIERS } from "@aifivem/shared";
+import { isAdmin, onClientCallback } from "@aicore8/lib/server";
+import { fail, isRecord } from "@aicore8/lib/shared";
+import { BAN_IDENTIFIERS } from "@aicore8/shared";
 import {
   ADMIN_BANS,
   type BansAction,

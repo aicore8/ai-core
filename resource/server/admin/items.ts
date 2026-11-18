@@ -1,8 +1,8 @@
-import { isAdmin, isOnline, onClientCallback } from "@aifivem/lib/server";
+import { isAdmin, isOnline, onClientCallback } from "@aicore8/lib/server";
 import {
   ITEM_PICKER_CALLBACK,
   type ItemPickerData,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { inventory } from "../inventory/active";
 
 // The item picker of admin tools (lib `itemPicker`): every item of the active inventory sorted by label, and the

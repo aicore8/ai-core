@@ -21,7 +21,7 @@ local core = Bridge.core
 ---@field grade integer
 ---@field admin boolean
 
----@class VrpConfig the panel's vRP mapping (`VrpConfig` in @aifivem/shared vrp.ts)
+---@class VrpConfig the panel's vRP mapping (`VrpConfig` in @aicore8/shared vrp.ts)
 ---@field defaults { jobPrefix: boolean, jobOnDuty: boolean, adminPrefix: boolean, playerPrefix: boolean }
 ---@field permissions VrpPermissionRule[]
 ---@field groups table<string, VrpGroupAlias>

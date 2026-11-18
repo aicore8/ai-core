@@ -4,7 +4,7 @@ import {
   type BanCursor,
   type BanFilter,
   type BanRecord,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 
 /**
  * The ban screens' data: the Bans section's list (one query's pages) and a character's ban history, each a snapshot

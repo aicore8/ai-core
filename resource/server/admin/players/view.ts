@@ -5,7 +5,7 @@ import { loadGangs, loadJobs } from "../../jobs/repo";
 import { players } from "../../player/registry";
 import { warrantStore } from "../../warrants/store";
 import { storedBalances, userOf } from "./repo";
-import { entityCoords } from "@aifivem/lib/server";
+import { entityCoords } from "@aicore8/lib/server";
 
 function pedPosition(source: number): Position | null {
   const ped = GetPlayerPed(String(source));

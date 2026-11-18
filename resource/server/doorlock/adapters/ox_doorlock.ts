@@ -1,6 +1,6 @@
-import { callExport } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
-import type { DoorlockAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
+import type { DoorlockAdapter } from "@aicore8/shared";
 
 /** A door as ox_doorlock returns it (`getDoor` / `getDoorFromName`: `{ id, state }`, state 1 = locked). */
 function door(id: string): { id: number; locked: boolean } | null {

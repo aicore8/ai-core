@@ -1,9 +1,9 @@
-import { onClientCallback } from "@aifivem/lib/server";
+import { onClientCallback } from "@aicore8/lib/server";
 import {
   ITEM_DEFINITIONS_CALLBACK,
   ITEM_DEFINITIONS_EVENT,
   type ItemDefinition,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 
 /**
  * Item definitions on every client (they concern everyone): each client asks once at start for the snapshot

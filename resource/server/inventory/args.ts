@@ -1,5 +1,5 @@
-import { isRecord } from "@aifivem/lib/shared";
-import type { InventoryRef, ShopProduct } from "@aifivem/shared";
+import { isRecord } from "@aicore8/lib/shared";
+import type { InventoryRef, ShopProduct } from "@aicore8/shared";
 
 /** Arguments of the inventory exports, from other resources. */
 

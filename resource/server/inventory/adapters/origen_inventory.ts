@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { InventoryAdapter, InventoryRef } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { InventoryAdapter, InventoryRef } from "@aicore8/shared";
 import { definition, definitions, isTrue, number, rows, stack } from "../parse";
 
 /**

@@ -1,4 +1,4 @@
-import { isRecord } from "@aifivem/lib/shared";
+import { isRecord } from "@aicore8/lib/shared";
 
 /** Lines the client error reporter puts in front of a client bundle (reporter, `try{`). */
 const WRAPPER_LINES = 2;

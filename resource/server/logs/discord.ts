@@ -1,4 +1,4 @@
-import type { LogEntry, LogPlayer } from "@aifivem/shared";
+import type { LogEntry, LogPlayer } from "@aicore8/shared";
 import { log } from "../log";
 import { logSettings } from "./settings";
 

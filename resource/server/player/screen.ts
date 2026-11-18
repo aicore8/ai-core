@@ -1,5 +1,5 @@
-import type { CharacterCard, CharacterScreen } from "@aifivem/shared";
-import { mysql } from "@aifivem/mysql";
+import type { CharacterCard, CharacterScreen } from "@aicore8/shared";
+import { mysql } from "@aicore8/mysql";
 import { listCharacters, type CharacterRow } from "../characters/repo";
 import { jobs as jobDefs, settings } from "../content";
 import { players } from "./registry";

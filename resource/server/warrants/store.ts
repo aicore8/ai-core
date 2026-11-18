@@ -1,4 +1,4 @@
-import type { MdtAdapter, Warrant } from "@aifivem/shared";
+import type { MdtAdapter, Warrant } from "@aicore8/shared";
 import { log } from "../log";
 import { WarrantCache } from "../mdt/warrants";
 import { players } from "../player/registry";

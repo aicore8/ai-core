@@ -1,5 +1,5 @@
-import { isRecord } from "@aifivem/lib/shared";
-import { mysql } from "@aifivem/mysql";
+import { isRecord } from "@aicore8/lib/shared";
+import { mysql } from "@aicore8/mysql";
 import { toCharId } from "../characters/edit";
 import { players } from "../player/registry";
 

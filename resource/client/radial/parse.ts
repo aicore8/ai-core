@@ -1,5 +1,5 @@
-import { isRecord } from "@aifivem/lib/shared";
-import type { RadialItem } from "@aifivem/shared";
+import { isRecord } from "@aicore8/lib/shared";
+import type { RadialItem } from "@aicore8/shared";
 
 const text = (v: unknown, max: number): string | undefined =>
   typeof v === "string" && v.length > 0 ? v.slice(0, max) : undefined;

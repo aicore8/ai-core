@@ -1,5 +1,5 @@
-import { mysql } from "@aifivem/mysql";
-import type { CharacterSearchPage } from "@aifivem/shared";
+import { mysql } from "@aicore8/mysql";
+import type { CharacterSearchPage } from "@aicore8/shared";
 import { parseSearch, searchIds } from "../admin/players/search";
 import { players } from "../player/registry";
 

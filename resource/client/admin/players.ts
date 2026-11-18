@@ -3,8 +3,8 @@ import {
   onServerEvent,
   player,
   triggerServerCallback,
-} from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
 import { ADMIN_PLAYERS, isPlayersAction } from "common/adminPlayers";
 import { NuiCallback, NuiMessage } from "common/nui";
 import { panel } from "./panel";

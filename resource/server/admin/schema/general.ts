@@ -1,4 +1,4 @@
-import type { TabSpec } from "@aifivem/shared";
+import type { TabSpec } from "@aicore8/shared";
 import { recommendationsCard } from "../../recommendations/schema";
 import { characterScreenCard } from "../../multichar/schema";
 import { layerCards, type LayerChoices } from "./layers";

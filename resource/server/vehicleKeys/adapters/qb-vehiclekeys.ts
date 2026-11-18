@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { VehicleKeysAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { VehicleKeysAdapter } from "@aicore8/shared";
 
 /** qb-vehiclekeys server exports `GiveKeys(source, plate)` / `RemoveKeys(source, plate)` (untested on ai-core). */
 export const qbVehicleKeys: VehicleKeysAdapter = {

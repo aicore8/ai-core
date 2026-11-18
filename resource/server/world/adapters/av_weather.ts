@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
+import { callExport } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
 import { toTime, type WeatherAdapter } from "../adapter";
 
 /**

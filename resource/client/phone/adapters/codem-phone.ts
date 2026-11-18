@@ -1,4 +1,4 @@
-import type { PhoneClientAdapter } from "@aifivem/shared";
+import type { PhoneClientAdapter } from "@aicore8/shared";
 import { onPhoneEvent } from "../phoneEvent";
 
 /** codem-phone: `codem-phone:client:playerPhoneUsed ()` on each use (the owner's qbx_smallresources isWanted listens to it). */

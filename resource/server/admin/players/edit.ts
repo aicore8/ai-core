@@ -1,4 +1,4 @@
-import { toBirthdate, toName, toNationality, toSex } from "@aifivem/shared";
+import { toBirthdate, toName, toNationality, toSex } from "@aicore8/shared";
 import type { MoneyMode } from "common/adminPlayers";
 import { changeIllegal } from "../../characters/illegal";
 import { toHeight } from "../../characters/manage";

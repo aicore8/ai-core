@@ -1,5 +1,5 @@
-import { callExport, PlayerState } from "@aifivem/lib/server";
-import type { MedicalAdapter } from "@aifivem/shared";
+import { callExport, PlayerState } from "@aicore8/lib/server";
+import type { MedicalAdapter } from "@aicore8/shared";
 
 /**
  * wasabi_ambulance (v1): its `dead` player state (`"dead"` / `"laststand"`, false when up) and server export

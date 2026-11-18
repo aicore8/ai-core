@@ -4,9 +4,9 @@ import {
   PlayerState,
   registerExport,
   stateBoolean,
-} from "@aifivem/lib/client";
-import { createLogger } from "@aifivem/lib/shared";
-import { CORE, SEATBELT_EVENT } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { createLogger } from "@aicore8/lib/shared";
+import { CORE, SEATBELT_EVENT } from "@aicore8/shared";
 import { AdapterPicker } from "common/adapters";
 
 /** qbx_seatbelt keeps the belt in the local player's state bag `seatbelt` (set on its own client). */

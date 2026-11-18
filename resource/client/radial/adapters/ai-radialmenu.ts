@@ -1,5 +1,5 @@
-import { resourceExport } from "@aifivem/lib/client";
-import type { RadialAdapter } from "@aifivem/shared";
+import { resourceExport } from "@aicore8/lib/client";
+import type { RadialAdapter } from "@aicore8/shared";
 
 const wheel = resourceExport("ai-radialmenu");
 

@@ -1,4 +1,4 @@
-import { mysql } from "@aifivem/mysql";
+import { mysql } from "@aicore8/mysql";
 import { log } from "../log";
 
 /** One money change as the ledger keeps it. */

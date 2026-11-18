@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { EmsAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { EmsAdapter } from "@aicore8/shared";
 
 /**
  * tgiann-policealert (written from its 2.10.0 source, `server/personalList.lua`): `GetAvailablePersonalCount(jobs)`

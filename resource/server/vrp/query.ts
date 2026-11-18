@@ -1,5 +1,5 @@
-import { isRecord } from "@aifivem/lib/shared";
-import { mysql, type Params } from "@aifivem/mysql";
+import { isRecord } from "@aicore8/lib/shared";
+import { mysql, type Params } from "@aicore8/mysql";
 import { splitStatements } from "./sql";
 
 /**

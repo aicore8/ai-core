@@ -1,5 +1,5 @@
-import { mysql } from "@aifivem/mysql";
-import { MAX_WARRANTS, type Warrant, type WarrantPage } from "@aifivem/shared";
+import { mysql } from "@aicore8/mysql";
+import { MAX_WARRANTS, type Warrant, type WarrantPage } from "@aicore8/shared";
 import type { Tables } from "../tables";
 
 /**

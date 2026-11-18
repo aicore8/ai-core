@@ -1,4 +1,4 @@
-import type { WidgetSpec } from "@aifivem/shared";
+import type { WidgetSpec } from "@aicore8/shared";
 import { Switch } from "../../../components/ui/switch";
 import { useEditor } from "../context";
 import { useField } from "./useField";

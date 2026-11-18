@@ -1,4 +1,4 @@
-import type { MdtAdapter } from "@aifivem/shared";
+import type { MdtAdapter } from "@aicore8/shared";
 import { codemMdt } from "./adapters/codem-mdtv2";
 import { lbTablet } from "./adapters/lb-tablet";
 import { psMdt } from "./adapters/ps-mdt";

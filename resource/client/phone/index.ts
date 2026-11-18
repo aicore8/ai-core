@@ -1,6 +1,6 @@
-import { GlobalKey, stateString } from "@aifivem/lib/client";
-import { createLogger } from "@aifivem/lib/shared";
-import { CORE, type PhoneClientAdapter } from "@aifivem/shared";
+import { GlobalKey, stateString } from "@aicore8/lib/client";
+import { createLogger } from "@aicore8/lib/shared";
+import { CORE, type PhoneClientAdapter } from "@aicore8/shared";
 import { AdapterFollower } from "common/adapterFollower";
 import { mov17Phone } from "./adapters/17mov_Phone";
 import { codemPhone } from "./adapters/codem-phone";

@@ -1,9 +1,9 @@
-import { callExport } from "@aifivem/lib/client";
+import { callExport } from "@aicore8/lib/client";
 import type {
   AppearanceClientAdapter,
   ClothingMenu,
   OutfitPiece,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 
 const RESOURCE = "tgiann-clothing";
 

@@ -7,7 +7,7 @@ import type {
   Recommendation,
   RecommendationDelta,
   UpdateInfo,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { getAt } from "../features/admin/path";
 
 /** A field's save state, shown next to its label. */

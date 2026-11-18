@@ -1,4 +1,4 @@
-import { LIB_UI } from "@aifivem/shared";
+import { LIB_UI } from "@aicore8/shared";
 
 /**
  * Where ai-lib's notification cards can go (panel setting `notify`): ai-lib's own cards first (the default), then

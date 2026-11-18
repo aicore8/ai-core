@@ -1,4 +1,4 @@
-import { every, onStop } from "@aifivem/lib/server";
+import { every, onStop } from "@aicore8/lib/server";
 import { saveCharacters } from "./characters/save";
 import { settings } from "./content";
 import { log } from "./log";

@@ -1,4 +1,4 @@
-import { registerExport } from "@aifivem/lib/server";
+import { registerExport } from "@aicore8/lib/server";
 import { AdapterPicker } from "common/adapters";
 import { log } from "../log";
 import type { WeatherAdapter } from "./adapter";

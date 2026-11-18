@@ -1,5 +1,5 @@
-import { isRecord } from "@aifivem/lib/shared";
-import type { CommandInfo, CommandParam } from "@aifivem/shared";
+import { isRecord } from "@aicore8/lib/shared";
+import type { CommandInfo, CommandParam } from "@aicore8/shared";
 
 /** Reads the command lists resources announce (`RegisterCommands`). */
 

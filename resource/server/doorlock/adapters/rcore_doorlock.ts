@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { DoorlockAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { DoorlockAdapter } from "@aicore8/shared";
 
 /**
  * rcore_doorlock (docs): server export `changeDoorState(doorId, state) -> boolean` (0 unlocked, 1 locked; kept and sent

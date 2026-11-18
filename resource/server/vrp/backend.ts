@@ -1,4 +1,4 @@
-import { mysql } from "@aifivem/mysql";
+import { mysql } from "@aicore8/mysql";
 import type { Tables } from "../tables";
 import { upsertStatement } from "./sql";
 import type { VrpBackend, VrpKind, VrpRow } from "./data";

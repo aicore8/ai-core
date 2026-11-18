@@ -1,4 +1,4 @@
-import { createLogger } from "@aifivem/lib/shared";
+import { createLogger } from "@aicore8/lib/shared";
 import { builtIn, type Replacement } from "./rules";
 
 const log = createLogger("ai-core");

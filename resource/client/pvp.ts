@@ -3,8 +3,8 @@ import {
   GlobalKey,
   onCache,
   stateBoolean,
-} from "@aifivem/lib/client";
-import { CORE } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { CORE } from "@aicore8/shared";
 
 /** The panel's PvP setting on the local ped; a new ped (clothing scripts swap it) gets it again. */
 const pvp = new GlobalKey(CORE.pvpStateKey, stateBoolean);

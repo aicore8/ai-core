@@ -1,6 +1,6 @@
-import { registerExport } from "@aifivem/lib/server";
-import { isRecord } from "@aifivem/lib/shared";
-import type { UsableItemHandler } from "@aifivem/shared";
+import { registerExport } from "@aicore8/lib/server";
+import { isRecord } from "@aicore8/lib/shared";
+import type { UsableItemHandler } from "@aicore8/shared";
 import { inventory } from "./active";
 import { name, ref, slot } from "./args";
 

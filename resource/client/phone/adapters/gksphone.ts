@@ -1,5 +1,5 @@
-import { PlayerState, stateBoolean } from "@aifivem/lib/client";
-import type { PhoneClientAdapter } from "@aifivem/shared";
+import { PlayerState, stateBoolean } from "@aicore8/lib/client";
+import type { PhoneClientAdapter } from "@aicore8/shared";
 import { onOwnOpen } from "../ownState";
 
 /** gksphone (GKSPHONE V2): player state bag `phoneOpen` (docs.gkshop.org/gksphone-v2/exports-and-events/state-bags). */

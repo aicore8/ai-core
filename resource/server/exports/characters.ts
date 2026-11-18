@@ -1,4 +1,4 @@
-import { registerExport } from "@aifivem/lib/server";
+import { registerExport } from "@aicore8/lib/server";
 import { toCharId } from "../characters/edit";
 import { isIllegal, setIllegal } from "../characters/illegal";
 import { deleteCharacterBy, setCharacterInfo } from "../characters/manage";

@@ -1,4 +1,4 @@
-import { mysql } from "@aifivem/mysql";
+import { mysql } from "@aicore8/mysql";
 
 /**
  * The ESX / QB tables external multichars read, created by ai-core as projections of its own tables. Framework names

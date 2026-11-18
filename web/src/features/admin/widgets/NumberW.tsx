@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
-import { formatWeight } from "@aifivem/lib/shared";
-import type { WidgetSpec } from "@aifivem/shared";
+import { formatWeight } from "@aicore8/lib/shared";
+import type { WidgetSpec } from "@aicore8/shared";
 import { useEditor } from "../context";
 import { keys } from "./boxKeys";
 import { useField } from "./useField";

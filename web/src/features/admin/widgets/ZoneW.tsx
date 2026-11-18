@@ -7,7 +7,7 @@ import {
   faVideo,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
-import type { WidgetSpec } from "@aifivem/shared";
+import type { WidgetSpec } from "@aicore8/shared";
 import { Button } from "../../../components/ui/button";
 import { Tooltip } from "../../../components/ui/tooltip";
 import { drawZone, myPosition, pickPoint, teleport } from "../worldActions";

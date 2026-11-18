@@ -1,4 +1,4 @@
-import type { MedicalAdapter } from "@aifivem/shared";
+import type { MedicalAdapter } from "@aicore8/shared";
 import { players } from "../../player/registry";
 
 /**

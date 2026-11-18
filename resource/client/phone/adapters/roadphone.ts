@@ -1,6 +1,6 @@
-import { isRecord } from "@aifivem/lib/shared";
-import { PlayerState } from "@aifivem/lib/client";
-import type { PhoneClientAdapter } from "@aifivem/shared";
+import { isRecord } from "@aicore8/lib/shared";
+import { PlayerState } from "@aicore8/lib/client";
+import type { PhoneClientAdapter } from "@aicore8/shared";
 import { onOwnOpen } from "../ownState";
 
 /** roadphone (RoadPhone Pro): player state bag `roadphoneStatus`, field `open` (docs.roadshop.org/roadphonepro/api/server.md, Phone Status). */

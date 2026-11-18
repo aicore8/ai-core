@@ -1,5 +1,5 @@
-import { isRecord } from "@aifivem/lib/shared";
-import type { HeldWeapon } from "@aifivem/shared";
+import { isRecord } from "@aicore8/lib/shared";
+import type { HeldWeapon } from "@aicore8/shared";
 
 /** ox_inventory's `getCurrentWeapon` answer (ai-inventory answers it too) as a `HeldWeapon`; `imageOf` for a missing picture. */
 export function toHeldWeapon(

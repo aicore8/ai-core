@@ -1,4 +1,4 @@
-import type { BankingAdapter, SocietyType } from "@aifivem/shared";
+import type { BankingAdapter, SocietyType } from "@aicore8/shared";
 import { gangs, jobs, settings } from "../content";
 import { databaseReady } from "../database";
 import { log } from "../log";

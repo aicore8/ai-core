@@ -1,5 +1,5 @@
-import { mysql } from "@aifivem/mysql";
-import type { AppearanceAdapter } from "@aifivem/shared";
+import { mysql } from "@aicore8/mysql";
+import type { AppearanceAdapter } from "@aicore8/shared";
 import { citizenidOf } from "../citizen";
 
 /**

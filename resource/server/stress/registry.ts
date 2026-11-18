@@ -1,5 +1,5 @@
-import { resourceExport } from "@aifivem/lib/server";
-import { CORE } from "@aifivem/shared";
+import { resourceExport } from "@aicore8/lib/server";
+import { CORE } from "@aicore8/shared";
 import { needsStore } from "../needs/store";
 import { players } from "../player/registry";
 

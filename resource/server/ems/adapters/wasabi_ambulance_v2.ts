@@ -1,5 +1,5 @@
-import { callExport } from "@aifivem/lib/server";
-import type { EmsAdapter } from "@aifivem/shared";
+import { callExport } from "@aicore8/lib/server";
+import type { EmsAdapter } from "@aicore8/shared";
 
 /**
  * Wasabi Ambulance v2 (written from its docs, docs.wasabiscripts.com/advanced-series/wasabi-ambulance-v2/exports):

@@ -1,5 +1,5 @@
-import { fail } from "@aifivem/lib/shared";
-import { CORE, type Warrant } from "@aifivem/shared";
+import { fail } from "@aicore8/lib/shared";
+import { CORE, type Warrant } from "@aicore8/shared";
 import { readMinutes } from "../../bans/parse";
 import { actorName } from "../../characters/manage";
 import { log } from "../../log";

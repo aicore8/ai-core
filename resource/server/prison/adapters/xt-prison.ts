@@ -1,4 +1,4 @@
-import { isOnline, PlayerState, stateNumber } from "@aifivem/lib/server";
+import { isOnline, PlayerState, stateNumber } from "@aicore8/lib/server";
 import type { PrisonAdapter } from "../adapter";
 
 /**

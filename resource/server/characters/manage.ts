@@ -1,4 +1,4 @@
-import { caller } from "@aifivem/lib/server";
+import { caller } from "@aicore8/lib/server";
 import {
   CORE,
   toBirthdate,
@@ -7,7 +7,7 @@ import {
   toSex,
   type CharacterInfo,
   type CharacterResult,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import { offline } from "../admin/players/offline";
 import { softDelete, updateInfo } from "../admin/players/repo";
 import { charWatchers } from "../admin/players/charWatchers";
